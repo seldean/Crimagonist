@@ -15,7 +15,7 @@ You can find more information about the game [here](#Features).
 To set up this Unity project, follow these steps:
 
 1. Install [Visual Studio](https://visualstudio.microsoft.com/), [VS Code](https://code.visualstudio.com/) or any code editor you are comfortable with.
-2. Install [Unity Editor 2022.3.20](https://unity.com/releases/editor/whats-new/2022.3.20#release-notes). This is the only version that is going to be used for the development.
+2. Install [Unity Editor 2023.2.0](https://unity.com/releases/editor/whats-new/2023.2.0). This is the only version that is going to be used for the development.
 3. Clone the repository.
 4. Open Unity Hub.
 5. Click on "Add" and select the project directory.
