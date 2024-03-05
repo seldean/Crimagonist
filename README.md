@@ -1,5 +1,7 @@
 # Crimagonist
 
+Current Version: 0.0.1 (Development)
+
 Please read [DISCLAIMER](DISCLAIMER.md) before you begin.
 Crimagonist is a Grand Strategy and Simulation game influenced by the titles like Hearts of Iron 4 and Stellaris.
 Crimagonist was a personal project developed by Sertan Balta during the time between 28.04.2023 and 17.01.2024 using Unity and C#.
