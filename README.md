@@ -1,8 +1,8 @@
 # Crimagonist
 
+Please read [DISCLAIMER](DISCLAIMER.md) before you begin.
 Crimagonist is a Grand Strategy and Simulation game influenced by the titles like Hearts of Iron 4 and Stellaris.
 Crimagonist was a personal project developed by Sertan Balta during the time between 28.04.2023 and 17.01.2024 using Unity and C#.
-You can find more information about the game [here](#Features).
 
 ## Table of Contents
 [Installation](#installation)
@@ -27,15 +27,23 @@ To use this Unity project, follow these instructions:
 2. Navigate to the main menu scene by opening [mainmenu.scene].
 
 ## Features
+- Grand Strategy
+- Criminal Strategy
+- Simulation
+- Realistic
+- Economy
+- Map
+- Multiplayer
+- Modding Support
+- Long Lasting
+- In Depth
 
--Grand Strategy
--Simulation
--Realistic
--Multiplayer
--Modding Support
+Much in depth gameplay features listed in [BLANK].
 
 ## Contributing
+Please read [DISCLAIMER](DISCLAIMER.md) if you haven't.
 Contributions to this Unity project are welcome! If you would like to contribute, please follow these steps:
+Gameplay features listed in [BLANK].
 
 - For Everyone:
 1. Fork the repository.
@@ -45,8 +53,8 @@ Contributions to this Unity project are welcome! If you would like to contribute
 5. Submit a pull request with a clear description of your changes.
 
 - For artists:
-* Mail me directly.
-* Do not forget to read the [INNEED.md].
+* Mail me directly: sbgitcontact@gmail.com.
+* Do not forget to read the [INNEED](INNEED.md).
 
 - For music producers:
 * Do not use licensed musics.
