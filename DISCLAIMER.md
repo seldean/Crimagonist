@@ -1,4 +1,4 @@
-## Disclaimer
+# Disclaimer
 This project contains content that may not be suitable for all audiences. It includes depictions of violence and other potentially inappropriate material. This project is intended for mature audiences only.
 
 By accessing or using this project, you agree that:

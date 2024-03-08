@@ -40,12 +40,12 @@ To use this Unity project, follow these instructions:
 - Long Lasting
 - In Depth
 
-Much in depth gameplay features listed in [BLANK].
+Much in depth gameplay features listed in [FEATURES](FEATURES.md).
 
 ## Contributing
 Please read [DISCLAIMER](DISCLAIMER.md) if you haven't.
 Contributions to this Unity project are welcome! If you would like to contribute, please follow these steps:
-Gameplay features listed in [BLANK].
+Gameplay features listed in [FEATURES](FEATURES.md).
 
 - For Everyone:
 1. Fork the repository.
