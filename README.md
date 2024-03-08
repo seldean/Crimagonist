@@ -26,7 +26,7 @@ To set up this Unity project, follow these steps:
 To use this Unity project, follow these instructions:
 
 1. Open the project in the Unity Editor.
-2. Navigate to the main menu scene by opening [mainmenu.scene].
+2. Navigate to the main menu scene by opening the scene named "main".
 
 ## Features
 - Grand Strategy
@@ -45,7 +45,6 @@ Much in depth gameplay features listed in [FEATURES](FEATURES.md).
 ## Contributing
 Please read [DISCLAIMER](DISCLAIMER.md) if you haven't.
 Contributions to this Unity project are welcome! If you would like to contribute, please follow these steps:
-Gameplay features listed in [FEATURES](FEATURES.md).
 
 - For Everyone:
 1. Fork the repository.
@@ -64,3 +63,6 @@ Gameplay features listed in [FEATURES](FEATURES.md).
 
 ## License
 This Unity project is licensed under the [Apache License 2.0](LICENSE).
+
+## Contact
+sbgitcontact@gmail.com
