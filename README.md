@@ -46,18 +46,18 @@ Much in depth gameplay features listed in [FEATURES](FEATURES.md).
 Please read [DISCLAIMER](DISCLAIMER.md) if you haven't.
 Contributions to this Unity project are welcome! If you would like to contribute, please follow these steps:
 
-For Everyone:
+- For Everyone:
 1. Fork the repository.
 2. Create a new branch for your 'approved feature' or fix.
 3. Make your changes.
 4. Test your changes thoroughly.
 5. Submit a pull request with a clear description of your changes.
 
-For artists:
+- For artists:
 * Mail me directly: sbgitcontact@gmail.com.
 * Do not forget to read the [INNEED](INNEED.md).
 
-For music producers:
+- For music producers:
 * Do not use licensed musics.
 * Do not use royalty-free music unless it is yours.
 
