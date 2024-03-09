@@ -5,37 +5,40 @@ using UnityEngine;
 using UnityEngine.UI;
 using OutputController;
 
-public class MidDivContentOutput : MonoBehaviour
-{
+//This script is used to debug the "non-unity game objects" in the "debug" scene with a GUI help.
+
+public class MidDivContentOutput : MonoBehaviour {
     //IN THIS DEBUGGING SCRIPT PLEASE USE COROUTINES TO NOT FREEZE THE GAME
 
+    //Prefabs to inject entries in to the MidDiv. Directory: /Assets/Prefabs/UI/Debug
     public GameObject prefabCharacterEntry;
+
+    //Variables to show the data amount being showed
     public TMP_Text showed_data_amount;
     int dataCount = 0;
 
-    private void ClearData()
-    {
+    //Clear MidDiv data
+    private void ClearData() {
         // Loop through all children of the parent transform
-        for (int i = transform.childCount - 1; i >= 0; i--)
-        {
+        for (int i = transform.childCount - 1; i >= 0; i--) {
             // Destroy the child game object
             Destroy(transform.GetChild(i).gameObject);
         }
     }
 
-    public void StopCoroutines()
-    {
+    //Stop all coroutines
+    public void StopCoroutines() {
         StopAllCoroutines();
     }
 
-    public void StartCharacterListing()
-    {
+    //Characters Button input comes here
+    public void StartCharacterListing() {
         ClearData();
         StartCoroutine(ShowCharacters());
     }
-    public IEnumerator ShowCharacters()
-    {
-        //Players listed first
+
+    //Listing the characters at the MidDiv
+    public IEnumerator ShowCharacters() {
         foreach (Player pl in CharacterStorage.Players)
         {
             GameObject newEntry = Instantiate(prefabCharacterEntry, transform.position, Quaternion.identity, transform);
@@ -98,7 +101,6 @@ public class MidDivContentOutput : MonoBehaviour
             yield return null;
         }
 
-        //NPC's listed
         foreach (NPC npc in CharacterStorage.NPCs)
         {
             GameObject newEntry = Instantiate(prefabCharacterEntry, transform.position, Quaternion.identity, transform);

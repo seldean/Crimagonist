@@ -27,8 +27,8 @@ public static class OrganizationLayerSettings
 public class Organization
 {
     #region Declerations
-    public string Name { get; set; }
     //Base variables of organizations.
+    public string Name { get; set; }
     public byte Authority { get; set; }
     public byte Loyalty { get; set; }
     public byte PullForce { get; set; }
@@ -73,6 +73,8 @@ public class Organization
     public bool IsOkayWithIllegalGambling { get; set; }
 
     public ushort LevelLimitation { get; set; }
+    
+    //Participants
     public List<Player> InvolvedPlayers { get; set; }
     public List<NPC> InvolvedNPCs { get; set; }
 
@@ -127,6 +129,7 @@ public class Organization
         LevelLimitation = 0;
         RefreshLevelLimitation();
 
+        //Make the creator of this organization a council member
         if (playerBuilder != null)
         {
             CouncilMemberPlayers.Add(playerBuilder);
@@ -135,6 +138,8 @@ public class Organization
         {
             CouncilMemberNPCs.Add(npcBuilder);
         }
+
+        //Add the inputed council members
         if (addedCouncilMemberPlayers != null)
         {
             for (int i = 0; i < addedCouncilMemberPlayers.Count; i++)

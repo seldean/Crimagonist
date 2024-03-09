@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using OutputController;
 
+#region Perk Triggers
 public class PerkTrigger {
     public string Name { get; set; }
     public string Description { get; set; }
@@ -11,6 +12,8 @@ public class PerkTrigger {
         Description = description;
     }
 }
+
+//The Perk Triggers
 public static class PerkTriggers {
     public static PerkTrigger Custom = new PerkTrigger("Custom", "Custom triggers works with specific events.");
     public static PerkTrigger OneTime = new PerkTrigger("One Time", "One time triggers can be used just one time.");
@@ -20,7 +23,9 @@ public static class PerkTriggers {
     public static PerkTrigger Month = new PerkTrigger("Month", "Triggered for each game month.");
     public static PerkTrigger Year = new PerkTrigger("Year", "Triggered for each game year.");
 }
+#endregion
 
+#region Perks
 public class PerkBase {
     public string Name { get; set; }
     public string Description { get; set; }
@@ -52,3 +57,4 @@ public class OrganizationPerk : PerkBase {
         Cost = cost;
     }
 }
+#endregion

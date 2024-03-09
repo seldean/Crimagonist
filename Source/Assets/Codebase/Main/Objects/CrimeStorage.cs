@@ -6,6 +6,7 @@ using OutputController;
 
 public class CrimeStorage
 {
+    //!!! If you add a new crime please add it to GetAllCrimes() method as well
     #region Declerations
     public static Crime Murder = new Crime("Murder", "Killing someone.", true, 30, 0, true);
     public static Crime Kidnapping = new Crime("Kidnapping", "Kidnapping someone against their will.", true, 5, 20000, false);
@@ -31,7 +32,7 @@ public class CrimeStorage
     public static Crime Fugitive = new Crime("Fugitive", "Escaping from law.", true, 10, 250000, false);
     #endregion
 
-    //If a new Crime is added, it needs be in this array too
+    //If a new Crime is added, it needs be in this array as well
     public static List<Crime> GetAllCrimes()
     {
         List<Crime> Crimes = new List<Crime>
