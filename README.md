@@ -66,7 +66,7 @@ This Unity project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contact
 Sertan Balta:
-* [LinkedIn: Sertan Balta](https://www.linkedin.com/in/sertan-balta-8078322a8/)
+* [LinkedIn: Sertan Balta](https://www.linkedin.com/in/sertan-balta-4x/)
 
 Crimagonist:
 * Mail: sbgitcontact@gmail.com
