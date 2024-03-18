@@ -65,4 +65,11 @@ For music producers:
 This Unity project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contact
-sbgitcontact@gmail.com
+Sertan Balta:
+* [LinkedIn: Sertan Balta](https://www.linkedin.com/in/sertan-balta-8078322a8/)
+
+Crimagonist:
+* Mail: sbgitcontact@gmail.com
+* [Instagram](https://www.instagram.com/crimagonist/)
+* [Twitter](https://twitter.com/crimagonist)
+* [Reddit](https://www.reddit.com/r/Crimagonist/)

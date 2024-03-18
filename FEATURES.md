@@ -17,14 +17,25 @@ There is many concepts and ideas in Crimagonist:
 for example the heist planning needs to be very flexible for players to achieve what they want, and Nodes are the decided solution for this.
 What are nodes? Nodes are middle segments in heist planning screen. There is start node and end node, between those you are gonna attach the nodes you think fits. If you want your personnel to swap vehicles before finishing there is a "Swap Vehicle" node with it's own parameters like "from car", "Which personnels numbers" and "To this car" where you can select your purchased vehicles.
 
-## Characters
+## /Assets/Codebase
+GameController.cs controls the storages, executes the object's creation methods and more.
+[/src/Assets/Codebase/GameController.cs](/src/Assets/Codebase/GameController.cs)
 
-* Stats
-    - Name - string
-    - IsMale - bool //null is unspecified
-    - Age - byte
-    - AgeBuffs - bool
-    - Level - ushort - Cap: 30.000
-    - LevelXP - uint - Cap: 1.000.000
-    - Renown - ushort
-    
+dll directory has usefull classes to use, example:
+The OutputController.cs is needed to take the WANTED output from the class and reduce code replaying.
+[/src/Assets/Codebase/dlls/OutputController.cs](/src/Assets/Codebase/dlls/OutputController.cs)
+
+The Main directory is mostly unrelated to Unity. Has most of the C# code.
+[/src/Assets/Codebase/Main](/src/Assets/Codebase/Main)
+
+IMPORTANT Main Objects from the game like characters and organizations, also their storages to use in runtime:
+[/src/Assets/Codebase/Main/Objects](/src/Assets/Codebase/Main/Objects)
+
+DateNTime is in-game time controller.
+[/src/Assets/Codebase/Main/DateNTime](/src/Assets/Codebase/Main/DateNTime)
+
+Notifications directory has the Messages.cs controlling mails, job invites, pop-up notifications.
+[/src/Assets/Codebase/Main/Notifications/Messages.cs](/src/Assets/Codebase/Main/Notifications/Messages.cs)
+
+The Menu directory is only for menu scene codes.
+[/src/Assets/Codebase/Menu](/src/Assets/Codebase/Menu)
