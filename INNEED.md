@@ -1,4 +1,0 @@
-## Needed features
-# UI
-
-# Mechanic
