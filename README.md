@@ -54,8 +54,7 @@ For Everyone:
 5. Submit a pull request with a clear description of your changes.
 
 For artists:
-* Mail me directly: sbgitcontact@gmail.com.
-* Do not forget to read the [INNEED](INNEED.md).
+* Mail me directly about what you want: sbgitcontact@gmail.com.
 
 For music producers:
 * Do not use licensed musics.
@@ -66,7 +65,7 @@ This Unity project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contact
 Sertan Balta:
-* [LinkedIn: Sertan Balta](https://www.linkedin.com/in/sertan-balta-8078322a8/)
+* [LinkedIn: Sertan Balta](https://www.linkedin.com/in/sertan-balta-4x/)
 
 Crimagonist:
 * Mail: sbgitcontact@gmail.com
