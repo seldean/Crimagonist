@@ -54,8 +54,7 @@ For Everyone:
 5. Submit a pull request with a clear description of your changes.
 
 For artists:
-* Mail me directly: sbgitcontact@gmail.com.
-* Do not forget to read the [INNEED](INNEED.md).
+* Mail me directly about what you want: sbgitcontact@gmail.com.
 
 For music producers:
 * Do not use licensed musics.
