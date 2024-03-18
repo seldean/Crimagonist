@@ -19,11 +19,11 @@ What are nodes? Nodes are middle segments in heist planning screen. There is sta
 
 ## /Assets/Codebase
 GameController.cs controls the storages, executes the object's creation methods and more.
-[/src/Assets/Codebase/GameController.cs](/src/Assets/Codebase/GameController.cs)
+[GameController.cs](/src/Assets/Codebase/GameController.cs)
 
 dll directory has usefull classes to use, example:
 The OutputController.cs is needed to take the WANTED output from the class and reduce code replaying.
-[/src/Assets/Codebase/dlls/OutputController.cs](/src/Assets/Codebase/dlls/OutputController.cs)
+[OutputController.cs](/src/Assets/Codebase/dlls/OutputController.cs)
 
 The Main directory is mostly unrelated to Unity. Has most of the C# code.
 [/src/Assets/Codebase/Main](/src/Assets/Codebase/Main)
@@ -35,7 +35,7 @@ DateNTime is in-game time controller.
 [/src/Assets/Codebase/Main/DateNTime](/src/Assets/Codebase/Main/DateNTime)
 
 Notifications directory has the Messages.cs controlling mails, job invites, pop-up notifications.
-[/src/Assets/Codebase/Main/Notifications/Messages.cs](/src/Assets/Codebase/Main/Notifications/Messages.cs)
+[Messages.cs](/src/Assets/Codebase/Main/Notifications/Messages.cs)
 
 The Menu directory is only for menu scene codes.
 [/src/Assets/Codebase/Menu](/src/Assets/Codebase/Menu)
