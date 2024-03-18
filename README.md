@@ -26,7 +26,7 @@ To set up this Unity project, follow these steps:
 To use this Unity project, follow these instructions:
 
 1. Open the project in the Unity Editor.
-2. Navigate to the main menu scene by opening the scene named "main".
+2. Navigate to the main scene by opening the scene named "main".
 
 ## Features
 - Grand Strategy
@@ -40,7 +40,7 @@ To use this Unity project, follow these instructions:
 - Long Lasting
 - In Depth
 
-Much in depth gameplay features listed in [FEATURES](FEATURES.md).
+More gameplay features listed in [FEATURES](FEATURES.md).
 
 ## Contributing
 Please read [DISCLAIMER](DISCLAIMER.md) if you haven't.
